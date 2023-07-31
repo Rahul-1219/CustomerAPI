@@ -15,8 +15,8 @@ function saveCustomersToFile(customersData) {
 // API to list customers with search and pagination
 app.get("/api/customers", (req, res) => {
   const { first_name, last_name, city } = req.query;
-  const page = parseInt(req.query.page) || 1;
-  const limit = parseInt(req.query.page) || 10;
+  const page = parseInt(req.query.page);
+  const limit = parseInt(req.query.page);
 
   let result = [...customers];
 
@@ -40,13 +40,6 @@ app.get("/api/customers", (req, res) => {
   if (page && limit) {
     const startIndex = (page - 1) * limit;
     const endIndex = startIndex + limit;
-
-    if (startIndex < 0) {
-      return res.status(400).json({ message: "Invalid page value" });
-    }
-    if (endIndex > result.length) {
-      return res.status(400).json({ message: "Invalid limit value" });
-    }
 
     result = result.slice(startIndex, endIndex);
   }
