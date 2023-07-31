@@ -1,86 +1,72 @@
 export default [
   {
-    "id": 3,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Surat",
-    "company": "SublimeDataSystems"
+    id: 3,
+    first_name: "Aman",
+    last_name: "Gupta",
+    city: "Surat",
+    company: "SublimeDataSystems",
   },
   {
-    "id": 4,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Rajkot",
-    "company": "SublimeDataSystems"
+    id: 4,
+    first_name: "Alex",
+    last_name: "Carry",
+    city: "Rajkot",
+    company: "Google",
   },
   {
-    "id": 5,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Bhavnagar",
-    "company": "SublimeDataSystems"
+    id: 5,
+    first_name: "Jhon",
+    last_name: "Wick",
+    city: "Bhavnagar",
+    company: "FaceBook",
   },
   {
-    "id": 6,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "vadodra",
-    "company": "SublimeDataSystems"
+    id: 6,
+    first_name: "Shubham",
+    last_name: "Pawar",
+    city: "vadodra",
+    company: "Amazon",
   },
   {
-    "id": 7,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Bhavnagar",
-    "company": "SublimeDataSystems"
+    id: 7,
+    first_name: "Mahesh",
+    last_name: "Gupta",
+    city: "Bhavnagar",
+    company: "SublimeDataSystems",
   },
   {
-    "id": 8,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Ahmedabad",
-    "company": "SublimeDataSystems"
+    id: 8,
+    first_name: "Amit",
+    last_name: "Patel",
+    city: "Ahmedabad",
+    company: "Microsoft",
   },
   {
-    "id": 9,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Ahmedabad",
-    "company": "SublimeDataSystems"
+    id: 9,
+    first_name: "Jack",
+    last_name: "Buauer",
+    city: "Ahmedabad",
+    company: "TCS",
   },
   {
-    "id": 10,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Ahmedabad",
-    "company": "SublimeDataSystems"
+    id: 10,
+    first_name: "Mahrishi",
+    last_name: "Gohel",
+    city: "Ahmedabad",
+    company: "SublimeDataSystems",
   },
   {
-    "id": 11,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Ahmedabad",
-    "company": "SublimeDataSystems"
+    id: 11,
+    first_name: "Aman",
+    last_name: "Gupta",
+    city: "Ahmedabad",
+    company: "SublimeDataSystems",
   },
   {
-    "id": 12,
-    "first_name": "Rahul",
-    "last_name": "Patel",
-    "city": "Ahmedabad",
-    "company": "SublimeDataSystems"
+    id: 12,
+    first_name: "Rahul",
+    last_name: "Patel",
+    city: "Ahmedabad",
+    company: "Google",
   },
-  {
-    "id": 13,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Ahmedabad",
-    "company": "SublimeDataSystems"
-  },
-  {
-    "id": 14,
-    "first_name": "Aman",
-    "last_name": "Gupta",
-    "city": "Ahmedabad",
-    "company": "SublimeDataSystems"
-  }
-]
+];
